@@ -1,7 +1,3 @@
-/*
- * parser.cpp
- *
- */
 
 #include <string>
 using std::string;

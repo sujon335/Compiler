@@ -5,9 +5,6 @@ using namespace std;
 
 #include "parser.h"
 
-/*
- * main.cpp
- */
 
 int lineNumber;
 string fileMessage;
@@ -40,7 +37,7 @@ main(int argc, char *argv[])
 	for( int i=1 ; i < argc; i++ ) {
 		string arg(argv[i]);
 
-		/*if( arg[0] == '-') {
+		if( arg[0] == '-') {
 			if( arg == "-t" ) {
 				doTrace = true;
 				continue;
@@ -48,7 +45,7 @@ main(int argc, char *argv[])
 
 			cout << arg << " UNRECOGNIZED FLAG" << endl;
 			return 0;
-		}*/
+		}
 
 		if( in != &cin ) {
 			cout << "TOO MANY FILES" << endl;
